@@ -12,11 +12,11 @@ form {
     border: none;
     padding: 5px;
     color: #000;
-    background: #00BFFF;
+    background: #00AA00;
     cursor: pointer;
 }
 
 .input-btn:hover {
-    background: #00CFFF;
+    background: #00CC00;
 }
 
