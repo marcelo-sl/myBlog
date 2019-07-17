@@ -3,16 +3,37 @@
     margin-top: 10px;
 }
 
-.list-posts h3 {
+.list-posts h1 {
     text-align: center;
 }
-.list-posts .post p{
-    margin-top: 15px;
-    border-bottom: 1px solid #999;
+
+.list-posts .post {
+    width: 800px;
+    padding: 20px;
+    line-height: 25px;
+    margin: 5px auto;
+    background: #FAFAFA;
+    border-radius: 5px;
 }
 
-.list-posts .post a{
-    color: #009ACD;
+.list-posts .post p {
+    color: #AAA;
+    font-size: 15px;
+}
+
+.list-posts .post .link {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    background: #555;
+    color: #FFF;
+    border-radius: 5px;
     text-decoration: none;
-    
+    justify-content: center;
+}
+
+.list-posts .post .link:hover {
+    background: #DADADA;
+    color: #333;
 }

@@ -1,7 +1,67 @@
 .header-container {
     width: 100%;
     padding: 20px;
+    display: flex;
     text-align: center;
-    background: rgb(0, 0, 0, 0.5);
+    justify-content: space-between;
+    background: rgb(0, 0, 0, 0.65);
     color: #FFF;
+}
+
+.header-container #title {
+    margin-left: 45%;
+}
+
+.header-container .link {
+   text-decoration: none;
+   color: #FFF;
+}
+
+.header-links {
+    width: 18%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-links li {
+    width: 80px;
+    margin: 0 5px;
+    padding: 10px;
+    background: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.header-links li:hover {
+    padding: 10px;
+    background: #999;
+    border-radius: 5px;
+}
+
+.header-links #sign-in {
+    width: 80px;
+    padding: 10px;
+    background: #333;
+    border-radius: 5px;
+    color: #CCC;
+}
+
+.header-links #sign-in:hover {
+    padding: 10px;
+    background: #444;
+    color: #CCC;
+}
+
+.header-links #sign-up {
+    width: 80px;
+    padding: 10px;
+    background: #0A0;
+    border-radius: 5px;
+    color: #222;
+}
+
+.header-links #sign-up:hover {
+    background: #0B0;
 }

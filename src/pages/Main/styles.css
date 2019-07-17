@@ -1,0 +1,22 @@
+.main {
+    width: 100%;
+    padding: 170px;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255, 0.4);
+    border-radius: 5px;
+
+}
+
+.main p {
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+}
+
+.main .title {
+    font-size: 60px;
+    text-align: center;
+    color: #1A1A1A;
+}
