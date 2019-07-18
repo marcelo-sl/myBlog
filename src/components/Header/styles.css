@@ -35,7 +35,6 @@
 }
 
 .header-links li:hover {
-    padding: 10px;
     background: #999;
     border-radius: 5px;
 }
@@ -49,9 +48,7 @@
 }
 
 .header-links #sign-in:hover {
-    padding: 10px;
     background: #444;
-    color: #CCC;
 }
 
 .header-links #sign-up {

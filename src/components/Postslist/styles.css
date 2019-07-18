@@ -11,9 +11,10 @@
     width: 800px;
     padding: 20px;
     line-height: 25px;
-    margin: 5px auto;
+    margin: 15px auto;
     background: #FAFAFA;
     border-radius: 5px;
+    border: 1px solid #BBB;
 }
 
 .list-posts .post p {
